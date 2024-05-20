@@ -59,7 +59,6 @@ public class Perfil {
     }
 
     public int getCantidadMaximaRecomendaciones() {
-
         return this.estado.getCantidadMaxRecomendaciones();
     }
 }
