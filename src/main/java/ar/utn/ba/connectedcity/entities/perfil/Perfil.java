@@ -52,6 +52,12 @@ public class Perfil {
         this.intereses = new ArrayList<>();
     }
 
+    public Perfil(String nombre, String apellido, List<Interes> intereses) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.intereses = intereses;
+    }
+
     public int getCantidadMaximaRecomendaciones() {
 
         return this.estado.getCantidadMaxRecomendaciones();
